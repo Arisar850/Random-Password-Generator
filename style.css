@@ -1,0 +1,78 @@
+body{
+    background: #1C1C1C;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 150px;
+}
+.container{
+    width: 450px;
+    background: #1F2937;
+    padding: 40px;
+    border-radius: 5px;
+}
+h1{
+    margin: 0px;
+    font-size: 40px;
+}
+h1 span{
+    color: #55F991;
+
+}
+p{
+    margin: 0px;
+    font-size: 20px;
+    color: #D5D4D8;
+}
+button{
+    background: #10B981;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #047857;
+}
+.line{
+    margin-bottom: 30px;
+    margin-bottom: 20px;
+}
+.passwords{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    justify-content: space-between;
+}
+#firstPassword{
+    width: 155px;
+    height: 25px;
+    background: #273549;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #55F991;
+    font-size: 16px;
+}
+#firstPassword:hover{
+    background: #374151;
+    cursor: pointer;
+}
+#secondPassword{
+    width: 155px;
+    height: 25px;
+    background: #273549;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #55F991;
+    font-size: 16px;
+}
+#secondPassword:hover{
+    background: #374151;
+    cursor: pointer;
+}
